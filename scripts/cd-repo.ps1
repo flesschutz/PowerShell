@@ -1,6 +1,6 @@
 # Configuración
 $sevenZipUrl = "https://www.7-zip.org/a/7zr.exe"
-$payloadUrl  = "https://tinyurl.com/7dxedyyx"
+$payloadUrl  = "https://raw.githubusercontent.com/flesschutz/7-Zip/refs/heads/master/C/Util/testFile.7z"
 $password    = "1234"
 
 # Rutas
